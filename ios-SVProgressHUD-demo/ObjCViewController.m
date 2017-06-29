@@ -111,14 +111,17 @@
                                              selector: @selector(willDisappearNotification)
                                                  name:SVProgressHUDWillDisappearNotification
                                                object: nil];
+    
     [[NSNotificationCenter defaultCenter] addObserver: self
                                              selector: @selector(didDisappearNotification)
                                                  name:SVProgressHUDDidDisappearNotification
                                                object: nil];
+    
     [[NSNotificationCenter defaultCenter] addObserver: self
                                              selector: @selector(willAppearNotification)
                                                  name:SVProgressHUDWillAppearNotification
                                                object: nil];
+    
     [[NSNotificationCenter defaultCenter] addObserver: self
                                              selector: @selector(didAppearNotification)
                                                  name:SVProgressHUDDidAppearNotification

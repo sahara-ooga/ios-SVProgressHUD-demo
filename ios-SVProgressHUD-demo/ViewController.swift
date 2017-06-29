@@ -81,20 +81,22 @@ final class ViewController: UIViewController {
 
         /*
          表示するポップアップ
+         表示される時間は、0.5〜5秒間、指定したメッセージの長さに依存します。
          */
         // Info
-        SVProgressHUD.showInfo(withStatus: "表示する文字列")
+//        SVProgressHUD.showInfo(withStatus: "表示する文字列")
 
         // Success
 //        SVProgressHUD.showSuccess(withStatus: "表示する文字列")
 
         // Error
-//        SVProgressHUD.showError(withStatus: "表示する文字列")
+        //SVProgressHUD.showError(withStatus: "表示する文字列")
     }
     
     // OBjective-Cで作った画面に遷移する
     @IBAction func didTapTransition(_ sender: UIButton) {
-        guard let vc = UIStoryboard(name: "ObjCViewController", bundle: nil).instantiateInitialViewController() else { return }
+        guard let vc = UIStoryboard(name: "ObjCViewController",
+                                    bundle: nil).instantiateInitialViewController() else { return }
         present(vc, animated: true)
     }
 
