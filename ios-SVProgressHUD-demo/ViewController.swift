@@ -89,6 +89,10 @@ final class ViewController: UIViewController {
         // Success
 //        SVProgressHUD.showSuccess(withStatus: "表示する文字列")
 
+        // Image and text
+        let image = #imageLiteral(resourceName: "bone")
+        SVProgressHUD.show(image, status: "message")
+        
         // Error
         //SVProgressHUD.showError(withStatus: "表示する文字列")
     }

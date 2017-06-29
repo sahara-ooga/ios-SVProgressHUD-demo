@@ -94,6 +94,10 @@
     // Success
 //    [SVProgressHUD showSuccessWithStatus:@"表示する文字列"];
 
+    // Image and status
+    UIImage *image = [UIImage imageNamed:@"bone"];
+    [SVProgressHUD showImage:image status:@"status"];
+    
     // Error
 //    [SVProgressHUD showErrorWithStatus:@"表示する文字列"];
 }
