@@ -1,5 +1,5 @@
 # ios-SVProgressHUD-demo
-iOS SVProgressHUDを利用したサンプル
+iOS Swift & Objective-C SVProgressHUDを利用したサンプル
 
 ## 1. PodFile
 
@@ -48,3 +48,7 @@ SVProgressHUD.showInfo(withStatus: "表示する文字列")
 ```objectivec
 [SVProgressHUD showInfoWithStatus:@"表示する文字列"];
 ```
+
+## 参考
+https://github.com/SVProgressHUD/SVProgressHUD
+http://dev.classmethod.jp/smartphone/ios-svprogresshud/
