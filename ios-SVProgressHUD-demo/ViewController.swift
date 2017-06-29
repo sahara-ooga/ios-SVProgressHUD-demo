@@ -93,7 +93,7 @@ final class ViewController: UIViewController {
         //SVProgressHUD.showError(withStatus: "表示する文字列")
     }
     
-    // OBjective-Cで作った画面に遷移する
+    // Objective-Cで作った画面に遷移する
     @IBAction func didTapTransition(_ sender: UIButton) {
         guard let vc = UIStoryboard(name: "ObjCViewController",
                                     bundle: nil).instantiateInitialViewController() else { return }
