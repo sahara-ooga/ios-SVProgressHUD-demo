@@ -50,5 +50,5 @@ SVProgressHUD.showInfo(withStatus: "表示する文字列")
 ```
 
 ## 参考
-https://github.com/SVProgressHUD/SVProgressHUD
-http://dev.classmethod.jp/smartphone/ios-svprogresshud/
+- https://github.com/SVProgressHUD/SVProgressHUD
+- http://dev.classmethod.jp/smartphone/ios-svprogresshud/
